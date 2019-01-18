@@ -1,0 +1,22 @@
+.header-container {
+    color: #fff;
+    padding: 15px 20px 3px 8px;
+
+    .logo {
+        max-width: 191px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    .logo-container, .action-component {
+        width: 50%;
+        display: inline-block;
+    }
+    .button-custom-container {
+        float: right;
+    }
+    .clearfix {
+        clear:both
+    }
+
+}
