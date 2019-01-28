@@ -1,8 +1,7 @@
 .step-container .images-container {
   display: inline; }
-
-.step-container .images-container img {
-  width: 50%; }
+  .step-container .images-container img {
+    width: 50%; }
 
 .step-container.purple-notification .notification-bar {
   background: #9e7aaf;
@@ -18,11 +17,9 @@
 
 .step-container.purple-notification .images-container {
   display: inline-block; }
-
-.step-container.purple-notification .images-container img:first-child {
-  float: left;
-  width: 30%; }
-
-.step-container.purple-notification .images-container img:last-child {
-  float: left;
-  width: 70%; }
+  .step-container.purple-notification .images-container img:first-child {
+    float: left;
+    width: 30%; }
+  .step-container.purple-notification .images-container img:last-child {
+    float: left;
+    width: 70%; }

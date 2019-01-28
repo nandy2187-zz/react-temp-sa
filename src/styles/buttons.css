@@ -5,16 +5,14 @@
   font-weight: 400;
   padding: 4px 16px;
   line-height: 30px; }
-
-.button-custom-container .custom-btn .icon-btn {
-  font-size: 14px;
-  margin-right: 4px; }
-
-.button-custom-container .custom-btn.tab-to-call {
-  background: #54c159;
-  background: -moz-linear-gradient(top, #54c159 0, #3e9a42 100%);
-  background: -webkit-linear-gradient(top, #54c159 0, #3e9a42 100%);
-  background: linear-gradient(to bottom, #54c159 0, #3e9a42 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#54c159',endColorstr='#3e9a42',GradientType=0);
-  border: 1px solid #54c159;
-  color: #fff; }
+  .button-custom-container .custom-btn .icon-btn {
+    font-size: 14px;
+    margin-right: 4px; }
+  .button-custom-container .custom-btn.tab-to-call {
+    background: #54c159;
+    background: -moz-linear-gradient(top, #54c159 0, #3e9a42 100%);
+    background: -webkit-linear-gradient(top, #54c159 0, #3e9a42 100%);
+    background: linear-gradient(to bottom, #54c159 0, #3e9a42 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#54c159',endColorstr='#3e9a42',GradientType=0);
+    border: 1px solid #54c159;
+    color: #fff; }

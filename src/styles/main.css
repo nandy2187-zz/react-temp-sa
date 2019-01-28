@@ -1,6 +1,5 @@
 .mobile-ux {
   max-width: 572px; }
-
-.mobile-ux .content-container {
-  border: 1px solid #ccc;
-  background-color: #daf5ff; }
+  .mobile-ux .content-container {
+    border: 1px solid #ccc;
+    background-color: #daf5ff; }

@@ -7,6 +7,7 @@ class HeaderLogo extends React.Component {
     onClickAction = ()=> {
         console.log('CustomButton Clicked!');
     }
+    
 
     
     render() {

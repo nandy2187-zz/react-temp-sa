@@ -15,7 +15,7 @@ class ProgressBar extends React.Component {
         activeStep: 0,
         completed: {},
         totalSteps: this.props.steps && this.props.steps.lenght,
-      };
+    };
 
     handleNext = () => {
         console.log('handleNext');
@@ -110,7 +110,7 @@ class ProgressBar extends React.Component {
                     }
                 </Stepper>
                 <div>
-                    {activeStep === stepsArray.lenght ? (
+                    {activeStep === stepsArray.length ? (
                         <div>
                             completed
                         </div>

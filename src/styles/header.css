@@ -1,18 +1,14 @@
 .header-container {
   color: #fff;
   padding: 15px 20px 3px 8px; }
-
-.header-container .logo {
-  max-width: 191px;
-  margin-left: 10px;
-  float: left; }
-
-.header-container .logo-container, .header-container .action-component {
-  width: 50%;
-  display: inline-block; }
-
-.header-container .button-custom-container {
-  float: right; }
-
-.header-container .clearfix {
-  clear: both; }
+  .header-container .logo {
+    max-width: 191px;
+    margin-left: 10px;
+    float: left; }
+  .header-container .logo-container, .header-container .action-component {
+    width: 50%;
+    display: inline-block; }
+  .header-container .button-custom-container {
+    float: right; }
+  .header-container .clearfix {
+    clear: both; }
