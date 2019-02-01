@@ -84,6 +84,16 @@ class ProgressBar extends React.Component {
         let buttonText = currentContentStep ? currentContentStep.buttonText : '';
         let classNameBar = this.props.progressClass + ' progress-bar';
         let contentStep = currentContentStep ? <StepSlice title={currentContentStep.title} urls={currentContentStep.images} class={currentContentStep.className} inputListType={currentContentStep.inputListType} notificationMessage={currentContentStep.notificationMessage}/>: null;
+        let contentBtn = <div className="btn-container">
+                            <Button
+                            variant="contained"
+                            color="primary"
+                            onClick={this.handleNext}
+                            className="custom-styled-btn"
+                            >
+                            {buttonText}
+                            </Button>
+                        </div>
         const connector = (
             <StepConnector
               classes={{
@@ -113,22 +123,23 @@ class ProgressBar extends React.Component {
                 <div className="action-container">
                     {activeStep === stepsArray.length ? (
                         <div>
-                            completed
+                            add logic for thank you page
                         </div>
                     ):(
-                        contentStep
+                        <div>
+                            {contentStep}
+                            <div className="btn-container">
+                                <Button
+                                variant="contained"
+                                color="primary"
+                                onClick={this.handleNext}
+                                className="custom-styled-btn"
+                                >
+                                {buttonText}
+                                </Button>
+                            </div>
+                        </div> 
                     )}
-                    <div className="btn-container">
-                        <Button
-                        variant="contained"
-                        color="primary"
-                        onClick={this.handleNext}
-                        className="custom-styled-btn"
-                        >
-                        {buttonText}
-                        </Button>
-                    </div>
-                    
                 </div>
             </div>
         );
