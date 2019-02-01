@@ -5,5 +5,30 @@
         border: 1px solid #ccc;
         background-color: #daf5ff;
     }
+
+    .input-container-catalog {
+        width: 100%;
+        margin-top: 20px;
+        .input-container {
+            width: 80%;
+            margin: auto;
+            div {
+                div:first-child {
+                    background: #fff;
+                    border: 1px solid #cecece;
+                    border-bottom: none;
+
+                    &:after {
+                        border-bottom: 3px solid #8a659c;
+                    }
+                  }
+            }
+        }
+    }
+    .third-step {
+        .input-container {
+            margin-bottom: 5px;
+        }
+    }
 }
   

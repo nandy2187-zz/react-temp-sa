@@ -34,7 +34,7 @@ class StepSlice extends React.Component {
                 </div>
                 {imageContainer}
                 <NotificationBar message={notificationMessage} />
-                <div className="input-container">
+                <div className="input-container-catalog">
                     {inputCollection}
                 </div>
             </div>

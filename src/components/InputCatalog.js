@@ -10,17 +10,17 @@ class InputCatalog extends React.Component {
         let placeholder = props.placeholder;
         switch(type) {
             case 'phone':
-                return <TextField required = {required} placeholder={placeholder} type= {type} />
+                return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder} type= {type} />
             case 'email':
-                return <TextField required = {required} placeholder={placeholder} type= {type} />
+                return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder} type= {type} />
             case 'password':
-                return <TextField required = {required} placeholder={placeholder} type= {type} />
+                return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder} type= {type} />
             case 'text':
-                return <TextField required = {required} placeholder={placeholder}/>
+                return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder}/>
             case 'zip':
-                return <TextField required = {required} placeholder={placeholder} />
+                return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder} />
             default:
-              return <TextField required = {required} placeholder={placeholder}/>
+              return <TextField variant="filled" fullWidth={true} required = {required} placeholder={placeholder}/>
           }
     }
 

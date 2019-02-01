@@ -14,7 +14,7 @@ class App extends React.Component{
             <div className="container mobile-ux">
                 <HeaderLogo logoUrl={logoUrl}/>
                 <div className="content-container">
-                    <ProgressBar steps={steps} progressClass={'purple-stepper'}/>
+                    <ProgressBar steps={steps} progressClass={'purple-stepper'} customStepperClass ={'stepper-container'}/>
                 </div>
             </div>
         )

@@ -1,5 +1,25 @@
 .mobile-ux {
   max-width: 572px; }
-  .mobile-ux .content-container {
-    border: 1px solid #ccc;
-    background-color: #daf5ff; }
+
+.mobile-ux .content-container {
+  border: 1px solid #ccc;
+  background-color: #daf5ff; }
+
+.mobile-ux .input-container-catalog {
+  width: 100%;
+  margin-top: 20px; }
+
+.mobile-ux .input-container-catalog .input-container {
+  width: 80%;
+  margin: auto; }
+
+.mobile-ux .input-container-catalog .input-container div div:first-child {
+  background: #fff;
+  border: 1px solid #cecece;
+  border-bottom: none; }
+
+.mobile-ux .input-container-catalog .input-container div div:first-child:after {
+  border-bottom: 3px solid #8a659c; }
+
+.mobile-ux .third-step .input-container {
+  margin-bottom: 5px; }

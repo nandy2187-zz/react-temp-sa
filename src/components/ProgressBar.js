@@ -78,6 +78,7 @@ class ProgressBar extends React.Component {
         console.log(this.props)
         const { classes } = this.props;
         let stepsArray = this.props.steps || [];
+        let customStepperClass = this.props.customStepperClass;
         let activeStep = this.state.activeStep;
         let currentContentStep = stepsArray.length ? stepsArray[activeStep] : false;
         let buttonText = currentContentStep ? currentContentStep.buttonText : '';
@@ -96,7 +97,7 @@ class ProgressBar extends React.Component {
 
         return (
             <div className={classNameBar}>
-                <Stepper activeStep={activeStep} connector={connector}>
+                <Stepper activeStep={activeStep} connector={connector} className={customStepperClass}>
                     {
                         stepsArray.map((step, index)=> {
                             const props = {};
@@ -109,7 +110,7 @@ class ProgressBar extends React.Component {
                         })
                     }
                 </Stepper>
-                <div>
+                <div className="action-container">
                     {activeStep === stepsArray.length ? (
                         <div>
                             completed
@@ -117,13 +118,17 @@ class ProgressBar extends React.Component {
                     ):(
                         contentStep
                     )}
-                    <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={this.handleNext}
-                    >
-                    {buttonText}
-                    </Button>
+                    <div className="btn-container">
+                        <Button
+                        variant="contained"
+                        color="primary"
+                        onClick={this.handleNext}
+                        className="custom-styled-btn"
+                        >
+                        {buttonText}
+                        </Button>
+                    </div>
+                    
                 </div>
             </div>
         );
